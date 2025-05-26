@@ -78,3 +78,11 @@ Install all dependencies using:
 ```bash
 pip install -r requirements.txt
 
+---
+## 🙌 Acknowledgments
+
+- [TensorFlow](https://www.tensorflow.org/)
+- [CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
+- [Creating Custom Layers with the Keras Subclassing API – Tirendaz Academy](https://tirendazacademy.medium.com/creating-custom-layers-with-the-keras-subclassing-api-c84f6ee4bdaf)
+- [Sequential vs Functional vs Subclassing API in TensorFlow – The Deep Hub](https://medium.com/thedeephub/sequential-vs-functional-vs-subclassing-api-in-tensorflow-8bfcfe91859d)
+
