@@ -78,7 +78,9 @@ Install all dependencies using:
 ```bash
 pip install -r requirements.txt
 
+```markdown
 ---
+
 ## 🙌 Acknowledgments
 
 - [TensorFlow](https://www.tensorflow.org/)
