@@ -1,4 +1,4 @@
-# 🧠 CIFAR-10 Classification with TensorFlow Subclassed API
+# 🧠 Subclassing API
 
 This project demonstrates the use of **TensorFlow's Keras subclassing API** to build and train a custom Convolutional Neural Network (CNN) for image classification on the **CIFAR-10 dataset**.
 
