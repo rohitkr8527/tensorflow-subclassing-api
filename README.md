@@ -1,6 +1,6 @@
 # TensorFlow Subclassing API
--![Scikit-learn](https://img.shields.io/badge/Scikit--learn-4B4B4B?style=for-the-badge&logo=scikit-learn&logoColor=white)
--![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-4B4B4B?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 
 This project demonstrates the use of **TensorFlow's Keras subclassing API** to build and train a custom Convolutional Neural Network (CNN) for image classification on the **CIFAR-10 dataset**.
