@@ -1,16 +1,19 @@
-# 🧠 Subclassing API
+# TensorFlow Subclassing API
+-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
 
 This project demonstrates the use of **TensorFlow's Keras subclassing API** to build and train a custom Convolutional Neural Network (CNN) for image classification on the **CIFAR-10 dataset**.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 The goal is to create a deep learning model capable of classifying 32x32 color images across 10 categories using a custom-defined architecture. Instead of using high-level Keras sequential or functional APIs, this project adopts a **subclassed approach** via `tf.keras.Model`, allowing full control over the forward pass and custom training behavior.
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 The model is a moderately deep CNN designed for small images, with the following structure:
 
@@ -30,7 +33,7 @@ This architecture balances performance and efficiency, suitable for quick experi
 
 ---
 
-## 🏋️ Training Setup
+## Training Setup
 
 - **Loss Function**: Sparse Categorical Crossentropy (from logits), appropriate for multi-class classification.
 - **Optimizer**: Adam optimizer is used for adaptive learning and efficient convergence.
@@ -50,7 +53,7 @@ Performance may vary slightly based on hyperparameters such as learning rate and
 
 ---
 
-## 📂 Acknowledgement
+## Acknowledgement
 - [TensorFlow](https://www.tensorflow.org/)
 - [CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 - [Creating Custom Layers with the Keras Subclassing API – Tirendaz Academy](https://tirendazacademy.medium.com/creating-custom-layers-with-the-keras-subclassing-api-c84f6ee4bdaf)
@@ -59,13 +62,13 @@ Performance may vary slightly based on hyperparameters such as learning rate and
 
 ---
 
-## 📚 Dataset
+## Dataset
 
 The **CIFAR-10** dataset is a benchmark in computer vision consisting of 60,000 32x32 color images across 10 classes. It is automatically downloaded using TensorFlow’s dataset loader.
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - Python
 - TensorFlow
